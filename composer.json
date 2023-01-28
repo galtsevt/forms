@@ -1,0 +1,22 @@
+{
+    "name": "galsevt/forms",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Galtsev Timofey",
+            "email": "galtsev.t@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Galtsevt\\Forms\\Providers\\FormServiceProvider"
+            ]
+        }
+    }
+}
