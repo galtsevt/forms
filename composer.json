@@ -12,6 +12,11 @@
     "require": {
         "php": ">=7.4"
     },
+    "autoload": {
+        "psr-4": {
+            "Galtsevt\\Forms\\": "src"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
