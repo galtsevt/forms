@@ -3,7 +3,7 @@
     <select class="form-select @error($name) is-invalid @enderror"
             name="{{ $name ?? '' }}"
     >
-        <option selected>Не выбрано</option>
+        <option value="" selected>Не выбрано</option>
         @foreach($data as $key => $value)
             <option value="{{ $key }}" {{ $key == $selected ? 'selected':'' }}>{{ $value }}</option>
         @endforeach
