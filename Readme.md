@@ -5,7 +5,7 @@
 1. [ ] **`laravel 9`**
 
 ## Установка
-`composer require galsevt/forms`
+`composer require galtsevt/forms`
 
 ## Использование
 
