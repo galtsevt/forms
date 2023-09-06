@@ -3,7 +3,7 @@
     <textarea placeholder="{{ $placeholder ?? '' }}" id="{{ $id ?? 'input-'. $name }}"
               class="form-control @error($name) is-invalid @enderror"
               name="{{ $name ?? '' }}"
-              rows="3">{{ $value ?? '' }}</textarea>
+              rows="3">{!!  $value ?? '' !!}</textarea>
     @error($name)
     <span class="invalid-feedback" role="alert">
         <strong>{{ $message }}</strong>
